@@ -19,14 +19,12 @@ Transfer Learning: The pretrained base model is frozen, and a lightweight adapta
 
 Reinforcement Learning: Agents are trained to maximize classification accuracy and confidence over episodes.
 
-Reward shaping uses model confidence and correctness to provide nuanced feedback.
+Reward shaping uses model confidence and correctness to provide nuanced feedback. Multiple reward functions like logarithmic, confidence based, static, etc were explored to find the best one.
 
 🤖 Models Used
-
+Multiple classifiers like KNN, SVM, neural network were used to select the best one out of those.
 Base Neural Network trained on benchmark dataset.
-
-Random Forest classifier for baseline comparison.
-
+Random Forest classifier for feature importance.
 Reinforcement Learning Agents:
 
   DQN (Deep Q-Network)
